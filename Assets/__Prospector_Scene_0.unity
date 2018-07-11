@@ -366,6 +366,9 @@ MonoBehaviour:
   fsPosMid2: {x: 0.4, y: 1}
   fsPosEnd: {x: 0.5, y: 0.95}
   reloadDelay: 2
+  gameOverText: {fileID: 0}
+  roundResultText: {fileID: 0}
+  highScoreText: {fileID: 0}
   deck: {fileID: 0}
   layout: {fileID: 0}
   drawPile: []
@@ -455,7 +458,7 @@ RectTransform:
   m_GameObject: {fileID: 1076015885}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1596557185}
   m_RootOrder: 2
@@ -464,7 +467,7 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.825}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 600, y: 100}
-  m_Pivot: {x: 0.5, y: 0}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1076015887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +534,7 @@ RectTransform:
   m_GameObject: {fileID: 1403266011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1596557185}
   m_RootOrder: 1
@@ -792,7 +795,7 @@ RectTransform:
   m_GameObject: {fileID: 1762607730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1596557185}
   m_RootOrder: 3
